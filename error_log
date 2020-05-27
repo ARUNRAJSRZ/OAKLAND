@@ -1,0 +1,1 @@
+[14-May-2020 09:00:35 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/yumtoz2k/public_html/oaklandranches.yumto.space/wp-content/plugins/woo-m-pesa-payment-gateway/Woocommerce_mpesa.php on line 122

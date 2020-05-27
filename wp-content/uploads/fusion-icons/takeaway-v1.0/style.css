@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'takeaway';
+  src:  url('fonts/takeaway.eot?y31w5a');
+  src:  url('fonts/takeaway.eot?y31w5a#iefix') format('embedded-opentype'),
+    url('fonts/takeaway.ttf?y31w5a') format('truetype'),
+    url('fonts/takeaway.woff?y31w5a') format('woff'),
+    url('fonts/takeaway.svg?y31w5a#takeaway') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="takeaway-"], [class*=" takeaway-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'takeaway' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.takeaway-dairy:before {
+  content: "\e900";
+}
+.takeaway-gluten:before {
+  content: "\e901";
+}
+.takeaway-keto:before {
+  content: "\e902";
+}
+.takeaway-vegetarian:before {
+  content: "\e903";
+}
